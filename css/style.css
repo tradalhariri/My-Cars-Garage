@@ -1,0 +1,103 @@
+/* The used colors are "##1F1F1F", "#f5f5f5", rgb(143, 0, 0,.8), #3D3D3D. */
+
+html{
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    background-image: url(../images/page-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.header{
+    background-color:#1F1F1F ;
+    text-align: center;
+    padding: 20px;
+    color: #f5f5f5;
+    font-size: 32px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+.form-section{
+    background-color: rgb(143, 0, 0,.8);
+    width: 25%;
+    color: #f5f5f5;
+   
+}
+form{
+
+    display: flex;
+    margin: 90px 0;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+label{
+   margin: 10px 0;
+    width: 50%;
+    
+}
+input{
+    border-radius: 4px;
+    margin: 10px 0;
+    width: 50%;
+}
+input:last-child{
+    background-color: #3D3D3D;
+    color: #f5f5f5;
+    padding: 5px 0;
+}
+select{
+    margin: 10px 0;
+    width: 50%;
+}
+
+.table-section{
+    background-color: rgb(143, 0, 0,.8);
+    width: 50%;
+    margin-left: 100px;
+    height: fit-content;
+}
+
+.table-section table {
+margin: 100px auto 10px auto;
+width: 90%;
+  
+}
+
+#total{
+    width:90%;
+    margin: 5px auto;
+    color: #f5f5f5;
+}
+
+td{
+    border: 1px white solid;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px;
+    background-color: #3D3D3D;
+}
+th{
+    background-color: #1F1F1F;
+    border: 1px white solid;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+tr td:last-child{
+    cursor: pointer;
+}
+

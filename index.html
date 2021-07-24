@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Garagi</title>
+</head>
+
+<body>
+    <header class="header">
+        <h2>Garagi</h2>
+
+    </header>
+    <main>
+ <section class="form-section">
+    <form id="form">
+        <label for="modelName">Car Model</label>
+        <input type="text" name="modelName" id="modelName">
+        <label for="modelYear">Model Year</label>
+        <input type="text" name="modelYear" id="modelYear">
+        <label for="manufacturer">Manufacturer</label>
+        <select name="manufacturer" id="manufacturer">
+            <option value="germany">
+               Germany 
+            </option>
+            <option value="korea">
+               korea 
+            </option>
+            <option value="japan">
+               Japan 
+            </option>
+            <option value="france">
+               France 
+            </option>
+            <option value="usa">
+               USA 
+            </option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+ </section>
+    <section class="table-section">
+        <table id="table">
+
+        </table>
+        <p id="total"></p>
+    </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
